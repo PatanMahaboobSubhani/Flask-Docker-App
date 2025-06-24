@@ -22,10 +22,10 @@ Set the default command to start the Flask app using the Python interpreter. To 
 Command: CMD ["python", "/app/app.py"]
 
 # Build the Docker Image:
-Using "docker build -t flask-docker-app python-project", if we want to execute in the current directory, we can use this 
+Using "docker build -t flask-docker-app python-project .", if we want to execute in the current directory, we can use this 
 
 or else
 
-Using "docker build -t flask-docker-app", we can create a Docker image in the Docker file directory
+Using "docker build -t flask-docker-app .", we can create a Docker image in the Docker file directory
 
 Use the command line to build the image from your Dockerfile.
